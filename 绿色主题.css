@@ -1,0 +1,115 @@
+/* 导航栏隐藏配置 */
+.coursetheme-navbar-hidden .navbar {
+  display: none !important;
+}
+.coursetheme-navbar-hidden {
+  padding: 27px 0px 27px !important;
+}
+/* 头部导航栏颜色 */
+#page-header {
+  background-color: rgba(0,109,38,.5);
+}
+/* 按钮颜色 */
+.btn-primary {
+  background-color: #0C6837;
+}
+/* 测试课程1隐藏标题文字 */
+.course-2 .coursetheme-title{
+  display: none;
+}
+
+/* 自定义主题的标题和搜索输入框的样式调整 */
+
+.coursetheme-title{
+  font-size: 24px;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 31px;
+  letter-spacing: 1px;
+  /* position: relative;
+  top: 5px; */
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+
+a.logo{
+  position:relative
+}
+
+.logo-header .logo img.coursethemelogo {
+  /* width: 167px; */
+  max-height: 90px;
+  margin: .5625rem 0!important;
+}
+
+/*  自定义主题导航栏隐藏的时候对应的搜索输入框也要响应式的隐藏也要隐藏 */
+@media (max-width: 767px){
+  .coursetheme-navbar-hidden .login-header {
+  display: none !important;
+}
+}
+
+.btn.btn-link.activity-add:hover {
+  background-color: #024d1d!important;
+}
+
+
+/* 按钮鼠标悬浮时的样式 */
+.btn:hover,.btn-primary:focus{
+  background-color: #024d1d!important;
+}
+
+/* .logo-header .logo img.img-responsive {
+  width: auto;
+} */
+
+
+/* .format-onlinecourse
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .refresh:hover {
+  background-color: rgba(2, 86, 32, .3)!important;
+}
+
+
+.format-onlinecourse
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .more:hover {
+     background-color: rgba(2, 86, 32, .3)!important;
+} */
+
+
+/* 主题设置页面样式调整 */
+#fgroup_id_setting .form-check-inline.form-check-label.fitem{
+  margin-right: 60px;
+}
+#fgroup_id_navbar .form-check-inline.form-check-label.fitem{
+  margin-right: 60px;
+}
+#fgroup_id_titleline .form-check-inline.form-check-label.fitem{
+  margin-right: 60px;
+}
+
+input#id_title2::placeholder{
+  color: #BBBBBB;
+}
+
+
+/* 页面导航栏头部自定义 logo 布局调整 */
+
+/* 1 */
+.logo-header .logo .flexBox{
+  display: flex;
+  align-items: center;
+}
+/* 2 上面的 .logo-header .logo img.coursethemelogo 有一条设置 margin 的 */
+/* 3 去掉 span 自定义文字的 相对定位 */
+/* 4 coursetheme-title 的 whitespace 设置为 nowrap */
+/* 5 图片高度改成 90 px */

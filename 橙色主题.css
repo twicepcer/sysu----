@@ -1,0 +1,319 @@
+/* 导航栏隐藏配置 */
+.coursetheme-navbar-hidden .navbar {
+  display: none !important;
+}
+.coursetheme-navbar-hidden {
+  padding: 27px 0px 27px !important;
+}
+/* 头部导航栏颜色 */
+#page-header {
+  background-color: rgba(241, 135, 22, .6);
+}
+/* 按钮颜色 */
+.btn-primary {
+  background-color: #F18716;
+}
+/* 响应式按钮颜色 */
+.navbar .btn-navbar{
+  background-color: #F18716;
+}
+/* 日历的渐变色头部上半 */
+.block_calendar_month .controls .calendar-controls{
+  background:linear-gradient(90deg, #F18716 0%, #FCC428 100%)!important;
+}
+/* 日历的渐变色头部下半 */
+.calendarmonth.calendartable thead {
+  background: linear-gradient(90deg, #F18716 0%, #FCC428 100%)!important;
+}
+/* 日历选中日期背景颜色 */
+.block_calendar_month table td.today span.day-number {
+  background: #F18716;
+}
+/* 日历事件日期的背景颜色 */
+.hasevent {
+  background: rgba(241, 135, 22, .12) !important;
+}
+/* 日历事件日期的字体颜色 */
+#page-mod-scorm-player .breadcrumb-button a, a, a.active, a:focus, a:visited{
+  color: #F18716;
+}
+/* 刷新按钮的字体颜色 */
+a.btn.btn-link {
+  color: #F18716 !important;
+}
+.format-onlinecourse
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .refresh {
+  border: 1px solid #F18716;
+}
+.format-onlinecourse
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .refresh:hover {
+  color: #F18716 !important;
+  /* background-color: rgba(241, 135, 22, .3)!important; */
+}
+.format-onlinecourse
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .more {
+  border: 1px solid #F18716;
+}
+.format-onlinecourse
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .more:hover {
+  color: #F18716 !important;
+  /* background-color: rgba(241, 135, 22, .3)!important; */
+}
+/* 侧边导航栏的按钮的颜色 */
+#sidebar-btn {
+  background-color: #F18716;
+}
+/* 侧边栏导航搜索按钮背景颜色 */
+button.search-icon{
+  background-color: #F18716;
+}
+/* 页面头部块区域 */
+.courseview-header {
+  background: rgba(241, 135, 22, .1);
+}
+/* 版块背景颜色 */
+.person-course-same #block-region-side-post section.block h5.card-title {
+  background-color: #F9E9D8 !important;
+}
+/* 添加版块点击块的背景,字体颜色更改*/
+.person-course-same .block{
+  background-color: #F9F5F0;
+}
+.block.block_adminblock {
+  background-color: #F9F5F0 !important;
+  border: 1px dashed #F18716 !important;
+}
+.block.block_adminblock h5.card-title {
+  color: #F18716!important;
+}
+
+
+/*  添加活动 或者 主题 的点击块背景,边以及图标的样式 */
+.btn.btn-link.activity-add {
+  background-color: #F9F5F0;
+  border: 1px dashed #F18716;
+  color: #F18716 !important;
+}
+.btn.btn-link.activity-add .activity-add-text::before {
+  color: #F18716;
+}
+#changenumsections .add-sections {
+  color: #F18716;
+  font-size: 1.08em;
+  display: flex;
+}
+#changenumsections .add-sections::before {
+  color: #F18716;
+}
+#changenumsections {
+  border-top: 1px dashed #F18716;
+}
+.btn.btn-link.activity-add:hover {
+  background-color: #d87914!important;
+}
+
+
+/* 按钮鼠标悬浮时的样式 */
+.btn:hover,.btn-primary:focus{
+  background-color: #d87914!important;
+}
+
+/* TODO 这里有处hover样式要在上面设置 */
+
+/* 测试课程1隐藏标题文字 */
+.course-2 .coursetheme-title{
+  display: none;
+}
+
+/* 原来的网课线条样式 */
+.unlist .meetinginfo{
+  border-left: 2px solid #F18716;
+}
+
+/* 导航栏下拉菜单底部和选中的颜色 */
+.navbar .dropdown-menu{
+  border-bottom: 4px solid #F18716;
+}
+
+.navbar .dropdown-menu>li>a:hover {
+  background-color: #F18716!important;
+}
+
+/* 返回顶部按钮背景颜色 */
+.back-to-top{
+  color:#F18716;
+}
+
+/* 网课版块颜色调整 */
+.edit-btn, .edit-btn:hover, .edit-btn:active, .edit-btn:visited{
+  color: #F18716!important;
+    border: 1px solid #F18716!important;
+}
+
+.format-onlinecourse .onlinecourse #coursecontentcollapse-1 .meetings .activity .meeting .meeting-btn a.start {
+  background: #F18716;
+}
+
+.format-onlinecourse .onlinecourse #coursecontentcollapse-1 .meetings .activity .meeting .meeting-btn a.edit {
+  color: #F18716;
+  border: 1px solid #F18716;
+}
+
+/* 自定义主题的标题和搜索输入框的样式调整 */
+
+.coursetheme-title{
+  font-size: 24px;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 31px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 5px;
+  margin-left: 8px;
+}
+
+
+a.logo{
+  position:relative
+}
+
+.logo-header .logo img.coursethemelogo {
+  width: 167px;
+}
+
+/* 侧边底部颜色调整 */
+.person-course-same #block-region-side-post{
+  background-color: #F9F5F0;
+}
+
+/*  自定义主题导航栏隐藏的时候对应的搜索输入框也要响应式的隐藏也要隐藏 */
+@media (max-width: 767px){
+  .coursetheme-navbar-hidden .login-header {
+  display: none !important;
+}
+}
+
+.format-flexsections_tag .nav .active:after{
+  border-bottom-color: #F18716;
+}
+
+/* 课程管理相关样式更改 */
+
+/* 按钮 */
+.btn-default, input.form-submit, input[type="button"], 
+input[type="submit"], input[type="reset"], input.form-submit, input#id_submitbutton, input#id_submitbutton2, 
+.path-admin .buttons input[type="submit"], td.submit input, 
+.submit.buttons input[name="cancel"], #notice .singlebutton+.singlebutton input{
+  background-color: #F18716;
+}
+
+
+input[type="submit"]:hover,input#id_submitbutton:hover{
+  background-color: #d87914!important;
+}
+
+input[type="submit"]:focus,input#id_submitbutton:focus{
+  background-color: #d87914!important;
+}
+
+/* input[type="button"]:hover,input[type="button"]:focus{
+  background-color: #d87914!important;
+} */
+button:hover, button:focus, button:active, .btn:hover, .btn-default:hover, .btn-default:focus, .btn-default:active, 
+.btn-default.active, .open .dropdown-toggle.btn-default, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, 
+input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, 
+input[type="reset"]:focus, button.active, input.form-submit.active, input.active[type="button"], input.active[type="submit"], 
+input.active[type="reset"], button:active, input.form-submit:active, input[type="button"]:active, input[type="submit"]:active,
+ input[type="reset"]:active, input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, 
+ .path-admin .buttons input[type="submit"]:hover, td.submit input:hover, input.form-submit:focus, input#id_submitbutton:focus,
+  input#id_submitbutton2:focus, .path-admin .buttons input[type="submit"]:focus, td.submit input:focus, input.form-submit:active,
+   input#id_submitbutton:active, input#id_submitbutton2:active, .path-admin .buttons input[type="submit"]:active, td.submit input:active,
+    input.form-submit.active, input#id_submitbutton.active, input#id_submitbutton2.active, .path-admin .buttons input.active[type="submit"],
+     td.submit input.active, input.form-submit.disabled, input#id_submitbutton.disabled, input#id_submitbutton2.disabled, 
+     .path-admin .buttons input.disabled[type="submit"], td.submit input.disabled, input.form-submit[disabled], input#id_submitbutton[disabled], 
+     input#id_submitbutton2[disabled], .path-admin .buttons input[type="submit"][disabled], td.submit input[disabled], #notice .singlebutton+.singlebutton input:hover{
+      background-color: #d87914!important;
+     }
+
+
+/* 取消按钮 */
+.btn-danger, #id_cancel.btn, .submit.buttons input[name="cancel"], #notice .singlebutton+.singlebutton input {
+    background-color: #FFFFFF!important;
+    box-sizing: border-box;
+    border: 1px solid #F18716;
+    color: #F18716;
+}
+
+#id_cancel.btn:focus,#id_cancel.btn:hover{
+  background-color: #FFFFFF!important;
+  color: #F18716!important;
+} 
+
+/* 设置按钮 */
+.jsenabled .breadcrumb-button .moodle-actionmenu[data-enhance]{
+  background-color: #F18716;
+}
+
+/* 其余按钮 */
+.page-item.active .page-link{
+  background-color: #F18716;
+  border-color: #F18716;
+}
+
+.divider.line-01:after{
+  background-color: #F18716;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus, .nav-tabs a.nav-link.active{
+  background-color: #F18716;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #F18716;
+}
+
+.activity-information .badge.alert-success{
+  background-color: #F18716!important;
+  border-color: #F18716;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active{
+  background-color: #F18716!important;
+}
+
+.activity-information .btn.btn-outline-secondary:active, .activity-information .btn.btn-outline-secondary:hover, .activity-information .btn.btn-outline-success{
+  background-color: #F18716!important;
+  border: 1px solid #F18716;
+}
+
+/* 主题设置页面样式调整 */
+#fgroup_id_setting .form-check-inline.form-check-label.fitem{
+  margin-right: 60px;
+}
+#fgroup_id_navbar .form-check-inline.form-check-label.fitem{
+  margin-right: 60px;
+}
+#fgroup_id_titleline .form-check-inline.form-check-label.fitem{
+  margin-right: 60px;
+}
+
+input#id_title2::placeholder{
+  color: #BBBBBB;
+}

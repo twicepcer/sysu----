@@ -1,0 +1,114 @@
+{{newcoursecss}} #page-header{padding: 35px 0!important;background: url(/theme/lambda/pix/incdj/hdbg.png) no-repeat center;background-size: cover;}
+{{newcoursecss}} #page-header .span5{width: 60%}
+{{newcoursecss}} #page-header .span7{width: 40%}
+{{newcoursecss}} .logo-header .logo{display: block;width: 100%;max-width: 285px;height: 55px;background: url(/theme/lambda/pix/incdj/logo.png) no-repeat center;background-size: cover;}
+{{newcoursecss}} .logo-header .logo img{display: none;}
+{{newcoursecss}} .profileblock .search{display: none;}
+{{newcoursecss}} #page-header .navbar{display: none;}
+{{newcoursecss}} .activity-navigation{display: none;}
+
+{{newcoursecss}} .courseview-header{background-image: url(/theme/lambda/pix/incdj/title_bg.png)!important;}
+{{newcoursecss}} #block-region-side-post .calendartable .calendar-controls{background:linear-gradient(90deg, #D14747 0%, #EC9B2A 100%)!important;}
+{{newcoursecss}} .minicalendar.calendartable thead{background:linear-gradient(90deg, #D14747 0%, #EC9B2A 100%)!important;}
+
+{{newcoursecss}} #sidebar-btn{background:#B60C1F;}
+{{newcoursecss}} a, {{newcoursecss}} a.active, {{newcoursecss}} a:focus, {{newcoursecss}} a:visited{color: #B60C1F;}
+{{newcoursecss}} .btn-primary{background-color:#B60C1F;color: #FFF;}
+{{newcoursecss}} .btn-primary:hover, {{newcoursecss}} .btn-primary:focus, {{newcoursecss}} .btn-primary:active, {{newcoursecss}} .btn-primary.active, {{newcoursecss}} .btn-primary.disabled, {{newcoursecss}} .btn-primary[disabled]{background-color:#B60C1F!important;}
+{{newcoursecss}} button, {{newcoursecss}} .btn, {{newcoursecss}} .btn-default, {{newcoursecss}} input.form-submit, {{newcoursecss}} input[type="button"], {{newcoursecss}} input[type="submit"], {{newcoursecss}} input[type="reset"], {{newcoursecss}} input.form-submit, {{newcoursecss}} input#id_submitbutton, {{newcoursecss}} input#id_submitbutton2, {{newcoursecss}} .path-admin .buttons input[type="submit"], {{newcoursecss}} td.submit input, {{newcoursecss}} .submit.buttons input[name="cancel"], {{newcoursecss}} #notice .singlebutton+.singlebutton input{background:#B60C1F;color: #FFF;}
+{{newcoursecss}} button:hover, {{newcoursecss}} button:focus, {{newcoursecss}} button:active, {{newcoursecss}} .btn:hover, {{newcoursecss}} .btn-default:hover, {{newcoursecss}} .btn-default:focus, {{newcoursecss}} .btn-default:active, {{newcoursecss}} .btn-default.active, {{newcoursecss}} .open .dropdown-toggle.btn-default, {{newcoursecss}} input.form-submit:hover, {{newcoursecss}} input[type="button"]:hover, {{newcoursecss}} input[type="submit"]:hover, {{newcoursecss}} input[type="reset"]:hover, {{newcoursecss}} button:focus, {{newcoursecss}} input.form-submit:focus, {{newcoursecss}} input[type="button"]:focus, {{newcoursecss}} input[type="submit"]:focus, {{newcoursecss}} input[type="reset"]:focus, {{newcoursecss}} button.active, {{newcoursecss}} input.form-submit.active, {{newcoursecss}} input.active[type="button"], {{newcoursecss}} input.active[type="submit"], {{newcoursecss}} input.active[type="reset"], {{newcoursecss}} button:active, {{newcoursecss}} input.form-submit:active, {{newcoursecss}} input[type="button"]:active, {{newcoursecss}} input[type="submit"]:active, {{newcoursecss}} input[type="reset"]:active, {{newcoursecss}} input.form-submit:hover, {{newcoursecss}} input#id_submitbutton:hover, {{newcoursecss}} input#id_submitbutton2:hover, {{newcoursecss}} .path-admin .buttons input[type="submit"]:hover, {{newcoursecss}} td.submit input:hover, {{newcoursecss}} input.form-submit:focus, {{newcoursecss}} input#id_submitbutton:focus, {{newcoursecss}} input#id_submitbutton2:focus, {{newcoursecss}} .path-admin .buttons input[type="submit"]:focus, {{newcoursecss}} td.submit input:focus, {{newcoursecss}} input.form-submit:active, {{newcoursecss}} input#id_submitbutton:active, {{newcoursecss}} input#id_submitbutton2:active, {{newcoursecss}} .path-admin .buttons input[type="submit"]:active, {{newcoursecss}} td.submit input:active, {{newcoursecss}} input.form-submit.active, {{newcoursecss}} input#id_submitbutton.active, {{newcoursecss}} input#id_submitbutton2.active, {{newcoursecss}} .path-admin .buttons input.active[type="submit"], {{newcoursecss}} td.submit input.active, {{newcoursecss}} input.form-submit.disabled, {{newcoursecss}} input#id_submitbutton.disabled, {{newcoursecss}} input#id_submitbutton2.disabled, {{newcoursecss}} .path-admin .buttons input.disabled[type="submit"], {{newcoursecss}} td.submit input.disabled, {{newcoursecss}} input.form-submit[disabled], {{newcoursecss}} input#id_submitbutton[disabled], {{newcoursecss}} input#id_submitbutton2[disabled], {{newcoursecss}} .path-admin .buttons input[type="submit"][disabled], {{newcoursecss}} td.submit input[disabled], {{newcoursecss}} #notice .singlebutton+.singlebutton input:hover{background-color: #B60C1F!important;}
+{{newcoursecss}} a.btn{color: #FFF;}
+{{newcoursecss}} .nav-button .courseedit-btn{color: #B60C1F;background: #FFF;}
+{{newcoursecss}} .btn.btn-link{background: none;}
+{{newcoursecss}} .btn.btn-link:active, {{newcoursecss}} .btn.btn-link:focus, {{newcoursecss}} .btn.btn-link:hover, {{newcoursecss}} a.btn.btn-link.p-0:hover{background: 0 0!important;}
+{{newcoursecss}} .content h3.sectionname{border-left-color: #B60C1F;}
+{{newcoursecss}} #page-header-nav .courseview-header .courseview-title h3{color: #B60C1F;}
+{{newcoursecss}} .block_calendar_month table td.today a{background-color:#B60C1F;}
+{{newcoursecss}} .nav-tabs{border-bottom-color: #B60C1F;}
+{{newcoursecss}} .nav-tabs a.nav-link.active, {{newcoursecss}} .nav-tabs>.active>a{background-color:#B60C1F;}
+{{newcoursecss}}.jsenabled .breadcrumb-button .moodle-actionmenu[data-enhance]{background:#B60C1F;}
+
+{{newcoursecss}} .content h3.sectionname{background: #F9F4F0;}
+{{newcoursecss}} .person-course-same #block-region-side-post{background:#F9F4F0;}
+{{newcoursecss}} .person-course-same #block-region-side-post section.block h5.card-title{background-color: #F9E6D8!important;}
+{{newcoursecss}}.format-flexsections_tag .nav .active:after{border-bottom-color:#B60C1F;}
+{{newcoursecss}}.format-flexsections_tag .sectionname{border-left-color: #B60C1F;background-color: #F9F4F0;}
+{{newcoursecss}}.format-flexsections_tag .sectionname a, {{newcoursecss}}.format-flexsections_tag .sectionname-sub a{color: #666;}
+{{newcoursecss}}.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link{border-color:#B60C1F;color: #B60C1F!important;}
+{{newcoursecss}}.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link:hover, {{newcoursecss}}.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link:focus{color: #B60C1F!important;}
+{{newcoursecss}}.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link>span{color: #B60C1F;}
+
+/* 对于党课页面样式的修正 */
+
+/* ----------------------------------- */
+/* 日历的渐变色头部上半 */
+.course-2 .block_calendar_month .controls .calendar-controls {
+  background: linear-gradient(90deg, #d14747 0%, #ec9b2a 100%) !important;
+}
+/* 日历的渐变色头部下半 */
+.course-2 .calendarmonth.calendartable thead {
+  background: linear-gradient(90deg, #d14747 0%, #ec9b2a 100%) !important;
+}
+/* 日历选中日期背景颜色 */
+.course-2 .block_calendar_month table td.today span.day-number {
+  background: #b60c1f;
+}
+/* 日历事件日期的背景颜色 */
+.course-2 .hasevent {
+  background: rgba(182, 12, 31, 0.12) !important;
+}
+
+/* 刷新按钮的字体颜色 */
+.course-2 a.btn.btn-link {
+  color: #b60c1f !important;
+}
+/* TODO 这里有设置 hover 样式 */
+
+  .course-2
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .refresh {
+  border: 1px solid #b60c1f;
+}
+.course-2
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .refresh:hover {
+  color: #b60c1f !important;
+  /* background-color: rgba(182, 12, 31, 0.3)!important; */
+}
+.course-2
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .more {
+  border: 1px solid #b60c1f;
+}
+.course-2
+  .onlinecourse
+  #coursecontentcollapse-1
+  .title
+  .title-right
+  .more:hover {
+  color: #b60c1f !important;
+  /* background-color: rgba(182, 12, 31, 0.3)!important; */
+}
+
+.course-2 .block_calendar_month table td.today a {
+  background-color: transparent!important;
+}
+
+.course-2 .courseview-header{
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.course-2 button, .course-2 .btn{
+  background: transparent;
+}
+/* ---------------------------------------------- */

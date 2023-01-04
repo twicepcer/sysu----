@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    min-width: 700px;
+    padding: 0 250px;
+  }
+
+  .header {
+    height: 100px;
+    width: 100%;
+    background: orange;
+  }
+
+  .footer {
+    height: 100px;
+    width: 100%;
+    background: gold;
+    clear: both;
+  }
+
+  .container {
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 150px;
+  }
+
+  .column {
+    float: left;
+    height: 300px;
+  }
+
+  .center {
+    width: 100%;
+    background: red;
+  }
+
+  .left {
+    background: green;
+    width: 100px;
+    margin-left: -100%;
+  }
+
+  .right {
+    background: purple;
+    width: 150px;
+    margin-left: -150px;
+  }
+</style>
+
+<body>
+  <div class="header">header</div>
+  <div class="container">
+    <div class="center column">center</div>
+    <div class="left column">left</div>
+    <div class="right column">right</div>
+  </div>
+  <div class="footer">footer</div>
+  <button id="cookieButton">cookie</button>
+
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+  <script>
+
+    let btn = document.querySelector('#cookieButton')
+    btn.onclick = function(){
+      console.log('1')
+      document.cookie="username=John Doe";
+    }
+
+    var list = document.querySelectorAll('li')
+    for (var i = 0; i < list.length; i++) {
+      list[i].onclick = (function (i) {
+        return function () {
+          console.log(i)
+        }
+      })(i)
+    }
+
+
+    columnSelecteds = ["日期", "姓名"]
+    columnHeaders = [
+      { index: 0, title: "日期", isShow: true },
+      { index: 1, title: "姓名", isShow: true },
+      { index: 2, title: "地址", isShow: true }
+    ]
+
+    var nonSelecteds = this.columnHeaders
+      .filter(item => columnSelecteds.indexOf(item.title) == -1)
+      .map(item => item.title)
+      console.log(nonSelecteds)
+      
+  </script>
+</body>
+
+</html>
