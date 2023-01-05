@@ -184,9 +184,10 @@ button.search-icon{
   color: #FFFFFF;
   line-height: 31px;
   letter-spacing: 1px;
-  position: relative;
-  top: 5px;
+  /* position: relative;
+  top: 5px; */
   margin-left: 8px;
+  white-space: nowrap;
 }
 
 
@@ -195,7 +196,9 @@ a.logo{
 }
 
 .logo-header .logo img.coursethemelogo {
-  width: 167px;
+ /* width: 167px; */
+ max-height: 90px;
+ margin: .5625rem 0!important;
 }
 
 /* 侧边底部颜色调整 */
@@ -217,7 +220,7 @@ a.logo{
 /* 课程管理相关样式更改 */
 
 /* 按钮 */
-.btn-default, input.form-submit, input[type="button"], 
+button, .btn, .btn-default, input.form-submit, input[type="button"], 
 input[type="submit"], input[type="reset"], input.form-submit, input#id_submitbutton, input#id_submitbutton2, 
 .path-admin .buttons input[type="submit"], td.submit input, 
 .submit.buttons input[name="cancel"], #notice .singlebutton+.singlebutton input{
@@ -316,4 +319,126 @@ input.active[type="reset"], button:active, input.form-submit:active, input[type=
 
 input#id_title2::placeholder{
   color: #BBBBBB;
+}
+
+
+/* 页面导航栏头部自定义 logo 布局调整 */
+button.language#dropdownMenu1{
+  background-color: transparent;
+}
+
+/* 1 */
+.logo-header .logo .flexBox{
+  display: flex;
+  align-items: center;
+}
+/* 2 上面的 .logo-header .logo img.coursethemelogo 有一条设置 margin 的 */
+/* 3 去掉 span 自定义文字的 相对定位 */
+/* 4 coursetheme-title 的 whitespace 设置为 nowrap */
+/* 5 图片高度改成 90 px */
+/* 6 文字响应式变化大小 */
+/* 7 第二行文字样式更改 */
+.coursetheme-title2{
+  font-size: 18px;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 24px;
+  letter-spacing: 1px;
+  /* position: relative;
+  top: 5px; */
+  margin-left: 8px;
+  white-space: nowrap;
+}
+/* 双行显示时的样式 */
+.flexBox2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flexBox2 .coursetheme-title{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* 响应式 */
+@media (min-width: 1024px) and (max-width: 1366px){
+  .coursetheme-title{
+    font-size: 17px;
+  }
+  
+  /* 双行显示 */
+  .flexBox2 .coursetheme-title{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .coursetheme-title2{
+   font-size: 14px;
+   line-height: 20px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 650px){
+  .logo-header .logo img.coursethemelogo{
+    max-height: 40.5px!important;
+  }
+
+  .coursetheme-title{
+    font-size: 20px;
+  }
+
+
+  /* 双行显示 */
+  .flexBox2 .coursetheme-title{
+   font-size: 17px;
+   line-height: 19px;
+ }
+ .coursetheme-title2{
+   font-size: 17px;
+   line-height: 19px;
+ }
+}
+
+
+@media (min-width: 450px) and (max-width: 550px){
+
+  .logo-header .logo img.coursethemelogo{
+    max-height: 33.36px!important;
+  }
+
+  .coursetheme-title{
+    font-size: 15.8px;
+  }
+
+   /* 双行显示 */
+   .flexBox2 .coursetheme-title{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .coursetheme-title2{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 450px){
+
+  .logo-header .logo img.coursethemelogo{
+    max-height: 25.58px!important;
+  }
+
+  .coursetheme-title{
+    font-size: 13px;
+  }
+
+   /* 双行显示 */
+   .flexBox2 .coursetheme-title{
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .coursetheme-title2{
+    font-size: 12px;
+    line-height: 13px;
+  }
 }

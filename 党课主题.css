@@ -108,7 +108,11 @@
   background-size: cover;
 }
 
-.course-2 button, .course-2 .btn{
+.btn.dropdown-toggle.language{
   background: transparent;
+}
+
+.divider.line-01:after{
+  background-color: #B60C1F;
 }
 /* ---------------------------------------------- */
