@@ -11,11 +11,32 @@
 }
 /* 按钮颜色 */
 .btn-primary {
-  background-color: #0C6837;
+  background-color: #025620;
 }
 /* 测试课程1隐藏标题文字 */
 .course-2 .coursetheme-title{
   display: none;
+}
+
+/*  添加活动 或者 主题 的点击块背景,边以及图标的样式 */
+.btn.btn-link.activity-add {
+  background-color: #F3F6F4;
+  color: #0C6837!important;
+  border-color: #0C6837;
+}
+.btn.btn-link.activity-add:hover {
+  background-color: #DFEBE3!important;
+}
+#changenumsections:hover{
+   background-color: #DFEBE3!important;
+}
+#changenumsections .add-sections{
+  color: #0C6837!important;
+}
+
+/* 添加一个版块的背景颜色修改 */
+.block.block_adminblock{
+  background-color: #F3F6F4!important;
 }
 
 /* 自定义主题的标题和搜索输入框的样式调整 */
@@ -29,7 +50,7 @@
   letter-spacing: 1px;
   /* position: relative;
   top: 5px; */
-  margin-left: 8px;
+  margin-left: 16px;
   white-space: nowrap;
 }
 
@@ -51,9 +72,6 @@ a.logo{
 }
 }
 
-.btn.btn-link.activity-add:hover {
-  background-color: #024d1d!important;
-}
 
 
 /* 按钮鼠标悬浮时的样式 */

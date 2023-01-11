@@ -3,6 +3,25 @@
   background-color: #b60c1f;
 }
 
+/* 添加或者编辑一个网页的边缘颜色 */
+.path-mod-page #region-main>div>h2:after{
+  background-color: #b60c1f;
+}
+
+/* 单小节折叠课程按钮样式修改 */
+.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link{
+  border: 1px solid #b60c1f;
+  border-color: #b60C1F;
+}
+
+.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link:hover{
+  border: 1px solid #b60c1f;
+  border-color: #b60C1F;
+}
+.format-flexsections_tag.path-course-view div[class*="mdl"] .btn.btn-link>span{
+  color: #b60C1F;
+}
+
 /* 导航栏隐藏配置 */
 .coursetheme-navbar-hidden .navbar {
   display: none !important;
@@ -112,7 +131,7 @@ button.search-icon{
 
 /*  添加活动 或者 主题 的点击块背景,边以及图标的样式 */
 .btn.btn-link.activity-add {
-  background-color: rgba(249, 230, 216, 1);
+  background-color: #F9F4F0;
   border: 1px dashed #b60c1f;
   color: #b60c1f !important;
 }
@@ -131,7 +150,10 @@ button.search-icon{
   border-top: 1px dashed #b60c1f;
 }
 .btn.btn-link.activity-add:hover {
-  background-color: #a30b1c!important;
+  background-color: #F9E6D8!important;
+}
+#changenumsections:hover{
+  background-color: #F9E6D8!important;
 }
 
 
@@ -192,7 +214,7 @@ button.search-icon{
   letter-spacing: 1px;
   /* position: relative;
   top: 5px; */
-  margin-left: 8px;
+  margin-left: 16px;
   white-space: nowrap;
 }
 
