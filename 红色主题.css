@@ -1,3 +1,8 @@
+/* 页面底部边色 */
+.regionTitle::after{
+  background-color: #b60c1f;
+}
+
 /* 导航栏隐藏配置 */
 .coursetheme-navbar-hidden .navbar {
   display: none !important;
@@ -441,3 +446,22 @@ button.language#dropdownMenu1{
     line-height: 13px;
   }
 }
+
+/* 移动按钮修改 */
+.operate-box input[name="move"] {
+  height: 28px;
+  background-color: rgba(2,86,32,1);
+  color: #fff;
+}
+.operate-box input[name="move"]:hover {
+  background-color: #77ae29!important;
+}
+
+.operate-box input[name="deleteselected"]{
+  background-color: rgba(194,58,51,1)!important;
+  box-sizing: content-box;
+}
+
+/* .operate-box input[name="deleteselected"]:hover {
+  background-color: rgba(194,58,51,1)!important;
+} */
